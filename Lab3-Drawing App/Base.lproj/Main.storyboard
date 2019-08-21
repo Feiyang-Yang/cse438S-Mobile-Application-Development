@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TMx-GG-ddy">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FeiyangYang_Lab3" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" colorLabel="IBBuiltInLabel-Yellow">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Wwa-7f-UBD" userLabel="Stack Color">
+                                <rect key="frame" x="16" y="617" width="210" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STW-4x-Ucw" customClass="ColorButton" customModule="FeiyangYang_Lab3" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="AQk-CE-65a"/>
+                                            <constraint firstAttribute="height" constant="30" id="JKT-lD-ELU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Red">
+                                            <color key="titleColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="changeColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gfi-2x-xKd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fft-9r-fSF" userLabel="Color Button1" customClass="ColorButton" customModule="FeiyangYang_Lab3" customModuleProvider="target">
+                                        <rect key="frame" x="45" y="0.0" width="30" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="fFd-NW-hrT"/>
+                                            <constraint firstAttribute="height" constant="30" id="vPn-Ys-u4G"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Red">
+                                            <color key="titleColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="changeColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cr4-Gg-fdP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eY0-Oy-wba" userLabel="Color Button2" customClass="ColorButton" customModule="FeiyangYang_Lab3" customModuleProvider="target">
+                                        <rect key="frame" x="90" y="0.0" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="D3x-cR-VxF"/>
+                                            <constraint firstAttribute="height" constant="30" id="JtS-cp-Pqs"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Red">
+                                            <color key="titleColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="changeColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mjp-ev-ilc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PPx-ek-Vgy" userLabel="Color Button3" customClass="ColorButton" customModule="FeiyangYang_Lab3" customModuleProvider="target">
+                                        <rect key="frame" x="135" y="0.0" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="0kN-Jb-DMN"/>
+                                            <constraint firstAttribute="height" constant="30" id="DjO-be-DD1"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Red">
+                                            <color key="titleColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="changeColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wT9-Oo-IUX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBb-sh-GW3" userLabel="Color Button4" customClass="ColorButton" customModule="FeiyangYang_Lab3" customModuleProvider="target">
+                                        <rect key="frame" x="180" y="0.0" width="30" height="30"/>
+                                        <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="3c6-j3-QCd"/>
+                                            <constraint firstAttribute="width" constant="30" id="dTV-YV-l9H"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Red">
+                                            <color key="titleColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="changeColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x4D-qf-gxj"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cng-az-oqP" customClass="ColorButton" customModule="FeiyangYang_Lab3" customModuleProvider="target">
+                                <rect key="frame" x="27" y="654" width="6" height="6"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="6" id="fbV-PS-6HP"/>
+                                    <constraint firstAttribute="width" constant="6" id="hK6-6Y-f0y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Red">
+                                    <color key="titleColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="NcI-3z-1xu" userLabel="Stack Creation">
+                                <rect key="frame" x="238" y="617" width="133" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wXI-hc-3v9">
+                                        <rect key="frame" x="0.0" y="0.0" width="43" height="30"/>
+                                        <state key="normal" title="T"/>
+                                        <connections>
+                                            <action selector="changeToText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nqT-iI-ikV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVo-lH-bfD">
+                                        <rect key="frame" x="45" y="0.0" width="43" height="30"/>
+                                        <state key="normal" title="Line"/>
+                                        <connections>
+                                            <action selector="changeToBrush:" destination="BYZ-38-t0r" eventType="touchUpInside" id="czz-mV-96S"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="100" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="14z-zb-VOs">
+                                        <rect key="frame" x="90" y="0.0" width="43" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="hMn-rJ-TMb"/>
+                                            <constraint firstAttribute="width" constant="43" id="p6O-Ed-Fd6"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                        <connections>
+                                            <action selector="changeAlpha:" destination="BYZ-38-t0r" eventType="valueChanged" id="8Zi-zc-3kh"/>
+                                            <action selector="changeAlpha:" destination="BYZ-38-t0r" eventType="editingChanged" id="Mhw-wl-2F6"/>
+                                            <action selector="changeAlpha:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="qdW-hN-Wzx"/>
+                                            <action selector="changeAlpha:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="sIl-nF-sRN"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Cng-az-oqP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="8ba-4g-lIz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Cng-az-oqP" secondAttribute="bottom" constant="7" id="RxN-8L-hiG"/>
+                            <constraint firstItem="AqG-fd-in9" firstAttribute="bottom" secondItem="NcI-3z-1xu" secondAttribute="bottom" constant="20" id="XhX-ug-MiN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Wwa-7f-UBD" secondAttribute="bottom" constant="20" id="dSE-gx-al2"/>
+                            <constraint firstItem="AqG-fd-in9" firstAttribute="trailing" secondItem="NcI-3z-1xu" secondAttribute="trailing" constant="4" id="mIm-v4-Cy8"/>
+                            <constraint firstItem="Wwa-7f-UBD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="zCO-gE-c8m"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="AqG-fd-in9"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OOx-IT-wQQ">
+                        <nil key="title"/>
+                        <slider key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="2" maxValue="10" id="XiM-DZ-bOH">
+                            <rect key="frame" x="8" y="5" width="80" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </slider>
+                        <rightBarButtonItems>
+                            <barButtonItem style="done" id="GW4-R7-DM2">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9lh-4Y-lLh">
+                                    <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Redo"/>
+                                    <connections>
+                                        <action selector="redoBoard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RdO-kl-HfY"/>
+                                    </connections>
+                                </button>
+                            </barButtonItem>
+                            <barButtonItem style="done" id="Yrw-Zw-WMs">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KFg-g1-fbd">
+                                    <rect key="frame" x="185" y="7" width="83" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Undo"/>
+                                    <connections>
+                                        <action selector="undoBoard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LuV-YY-tP9"/>
+                                    </connections>
+                                </button>
+                            </barButtonItem>
+                            <barButtonItem style="done" id="6Q9-C9-IKq">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="89Z-qZ-pfB">
+                                    <rect key="frame" x="94" y="7" width="83" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Clear"/>
+                                    <connections>
+                                        <action selector="clearBoard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fVt-G6-gGq"/>
+                                    </connections>
+                                </button>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="alphaTextField" destination="14z-zb-VOs" id="sKg-MS-ANz"/>
+                        <outlet property="clearButton" destination="89Z-qZ-pfB" id="K0b-u8-tNl"/>
+                        <outlet property="colorButton0" destination="STW-4x-Ucw" id="bB5-Tc-TOs"/>
+                        <outlet property="lineButton" destination="RVo-lH-bfD" id="ecs-gC-LxW"/>
+                        <outlet property="redoButton" destination="9lh-4Y-lLh" id="d0g-qF-kAw"/>
+                        <outlet property="selectionIndicator" destination="Cng-az-oqP" id="LVK-aM-9gO"/>
+                        <outlet property="textButton" destination="wXI-hc-3v9" id="rq9-bc-xH9"/>
+                        <outlet property="thicknessSlider" destination="XiM-DZ-bOH" id="iDQ-ap-fRS"/>
+                        <outlet property="undoButton" destination="KFg-g1-fbd" id="PN6-za-4PD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="137.18140929535232"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Rrc-R9-Bnu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TMx-GG-ddy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="f5u-rx-xTB">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="2tS-cn-hLi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F9m-nN-b9n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>

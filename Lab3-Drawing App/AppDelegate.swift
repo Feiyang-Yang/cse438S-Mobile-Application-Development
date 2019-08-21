@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  FeiyangYang-Lab1
+//  FeiyangYang-Lab3
 //
-//  Created by 杨飞扬 on 2018/9/10.
-//  Copyright © 2018年 Feiyang Yang. All rights reserved.
+//  Created by 杨飞扬 on 10/3/18.
+//  Copyright © 2018 Feiyang Yang. All rights reserved.
 //
 
 import UIKit
